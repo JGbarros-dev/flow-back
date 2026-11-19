@@ -1,0 +1,20 @@
+{
+  "name": "flowdock-back",
+  "version": "1.0.0",
+  "description": "FlowDock MVP: API, motor de fila dinâmica e simulação de rotas (Node.js)",
+  "private": true,
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
